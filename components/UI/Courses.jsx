@@ -30,10 +30,12 @@ const Courses = ({ courses = [] }) => {
             </Col>
           ))}
         </Row>
+
+        {/* Add the h3 element with a specific style here */}
+        <h3 style={{ fontSize: "1.5rem" }}>Courses</h3>
       </Container>
     </section>
   );
 };
-
 
 export default Courses;
